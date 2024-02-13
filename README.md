@@ -37,6 +37,9 @@ Screenshots
 <img src="img/SkillsScreenShot.png">
 
 Credits
+<br>
 Bootstrap: https://getbootstrap.com/
+<br>
 FontAwesome: https://fontawesome.com/
+<br>
 Unsplash: https://unsplash.com/
