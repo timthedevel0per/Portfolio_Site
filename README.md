@@ -24,9 +24,9 @@ Contact: The site includes links to GitHub, LinkedIn, and direct Email.
 ## Installation
 To run this project locally, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/portfolio-site.git
-Navigate to the project directory: cd portfolio-site
-Open the index.html file in your web browser.
+- Clone the repository: git clone https://github.com/your-username/portfolio-site.git
+- Navigate to the project directory: cd portfolio-site
+- Open the index.html file in your web browser.
 
 ## Usage
 Once the site is open in your web browser, you can navigate through the different sections using the navbar. Click on the project thumbnails to view more details about each project.
@@ -39,4 +39,4 @@ Screenshots
 Credits
 Bootstrap: https://getbootstrap.com/
 FontAwesome: https://fontawesome.com/
-Images: Unsplash https://unsplash.com/
+Unsplash: https://unsplash.com/
