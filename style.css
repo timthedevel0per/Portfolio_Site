@@ -1,0 +1,378 @@
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+  color: cyan;
+  background-size: cover;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  position: relative;
+}
+
+h1 {
+  background-position: center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+  background-size: cover;
+  margin: auto;
+  margin-top: 227px;
+  justify-content: center;
+  width: 100%;  
+  font-size: 72px;
+  align-content: center;
+  align-items: center;
+  display: flex;
+}
+
+h3 {
+  background-position: center;
+  text-align: center;  
+  color: gray;
+  text-shadow: 1px 1px white;
+  background-size: cover;
+  margin: auto;  
+  padding-top: 10px;  
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  font-size: 28px;
+}
+
+h4 {
+  background-position: center;
+  text-align: center;  
+  color: gray;
+  text-shadow: 1px 1px white;
+  background-size: cover;
+  margin: auto;  
+  padding-top: 10px;  
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  font-size: 44px;
+}
+
+h5 {
+  color: cyan;
+  text-shadow: 1px 1px black;
+  font-size: 24px;
+}
+
+#hero-section {
+ /* background-image: url(https://rare-gallery.com/uploads/posts/3001876-1600x1200-beach-fantasy-ocean-planet-sea-sun.jpg);*/
+  /*background-image: url(/img/TealGoldBeach.png);*/
+  /*background-image: url(/img/TealGoldMainBeach.png);*/
+  /*background-image: url(/img/GoldTealBeachMain.png);*/
+  background-image: url(/img/GoldTealBeachMain2.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: auto;
+  width: cover;
+  padding: 50px;
+  background-size: cover;
+  background-position: 25% 25%;
+  border-image: white, teal;
+  object-fit: cover;
+  overflow: hidden;
+  box-shadow: 0 0 8px cyan inset;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.product-holder {
+  position: relative;
+  display: block;
+}
+
+.plus-image {
+  background-color: cyan;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+  padding: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 150px;
+  justify-content: center;
+  border-width: 3px;
+  border-style: solid;
+  display: flex;
+  transition: transform 0.7s ease-in-out;
+  box-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 30px #3f3f3f, 0 0 50px #3f3f3f, 0 0 60px #3f3f3f, 0 0 70px #3f3f3f;
+  
+}
+
+.plus-image:hover {
+  transform: rotate(360deg); 
+}
+
+#mission-section {
+  width: cover;
+  height: auto;
+  margin: auto;
+  margin-top: 0;
+  /*background: linear-gradient(to right, gray, black);*/
+  /*background: linear-gradient(to bottom, gray, black);*/
+  background: rgba(0, 0, 0, 0.8);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(/img/GoldTealBeachMain.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 5px white inset;
+  text-align: center;
+  background-position: center;
+  font-size: 12px;
+  display: flex;
+}
+
+#mission-section h2 {
+  text-shadow: 1px 1px black;
+  height: auto;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#mission-section p {
+  font-size: 26px;
+  /*padding-top: -25px;*/
+  text-shadow: 1px 1px black;
+  margin: 0;
+  padding-right: 10px;
+  padding: 20px;
+}
+
+#mission-section img {
+  width: 100%;
+  height: auto;
+  margin: auto; /* Horizontally centers the image */
+/* padding: 20px;
+  padding-left: 35px;
+  padding-bottom: 50px;*/
+}
+
+#mission-container {
+  width: cover;
+  color: #646464;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mission-image {
+  background-position: center;
+ flex-direction: column;
+  align-items: center;
+}
+
+
+
+#mission-image {
+  background-position: center;
+}
+
+#skills-section {
+  width: 100%;
+  text-align: center;
+  columns: 3;
+  height: auto;
+  /*padding: 50px;*/
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;  
+  justify-content: center;
+  margin-top: 0;
+  box-shadow: 0 0 5px cyan inset;
+  /*background-color: black;*/
+  background: rgba(0, 0, 0, 0.8);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(/img/GoldTealBeachMain.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;  
+  background-attachment: fixed;
+}
+
+
+#skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: cover;
+  justify-content: center;
+  align-content: center;
+
+}
+
+#skills-section h2 {  
+  display: flex;
+  text-align: center;  
+  justify-content: center;  
+  text-shadow: 1px 1px black;
+  height: auto;
+}
+
+#skills-section .row {
+  padding: 50px;
+}
+
+
+.row {
+  width: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+  object-fit: cover;
+}
+
+#inspiration-section {
+  width: 100%; 
+  padding: 50px; 
+  margin-top: 0;
+  /*background: linear-gradient(to right, black, gray);*/
+  background: linear-gradient(to top, teal, black);
+  height: auto;
+  box-shadow: 0 0 10px white inset;
+}
+
+#inspiration-carousel .carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+
+#inspiration-carousel {
+  margin-bottom: 0;
+  height: 100%;
+  box-shadow: 0 0 10px cyan;
+}
+
+#inspiration-section p {
+  color: cyan;
+  text-shadow: 1px 1px black;
+  font-size: 18px;
+}
+
+#inspiration-section h2 {
+  color: cyan;
+  text-shadow: 1px 1px black;
+  margin-top: -50px;  
+  justify-content: center;
+  align-items: center;
+}
+  
+#contact-section {
+  color: cyan;
+  box-shadow: 0 0 7px cyan inset;
+  width: 100%;
+ /* height: 100%;*/ 
+  /*background-image: url(https://rare-gallery.com/uploads/posts/3001876-1600x1200-beach-fantasy-ocean-planet-sea-sun.jpg);*/
+  /*background-image: url(/img/TealGoldBeachNuggets.png);*/
+  background-image: url(/img/GoldTealBeachMain2.png);
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-size: cover;
+  background-attachment: fixed;
+}
+  
+.contact-section-h2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 2px 2px black;
+}
+
+#contact-section svg {
+  display: inline-block;
+  justify-content: center;
+  height: auto;
+  padding: 20px;
+  overflow: hidden;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+#contact-section svg:hover {
+  fill: cyan;
+}
+
+  
+#contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: cover;
+  justify-content: space-evenly; 
+  height: 100%;
+}
+
+.contact-container.text-center {
+  width: 100%;
+  align-items: center;
+}
+
+#footer-section {
+  width: 100%;
+  background-color: black;
+  color: cyan;
+  padding: 20px;
+  position: static;
+  bottom: 0;
+  left: 0;
+  right: 0;  
+  text-align: center;
+}
+
+.footer-section #img {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+h1:hover {
+  text-shadow: 2px 0 5px black;
+}
+
+h4:hover {
+  text-shadow: 2px 0 5px cyan;
+}
+
+.nav-link:hover {
+  text-shadow: 2px 0 5px cyan;
+}
+
+/*.row.justify-content-center {
+  width: 100%;
+} */
+  
+.dark {
+  background: darkgray !important;
+  transition: 7.7s ease-in;
+}
+
+
+
+#mission-target,
+#skills-target,
+#inspiration-target,
+#contact-target {
+  position: relative;
+  top: -60px;
+}
+
+#container-fluid {
+  align-items: center;
+  justify-content: center;
+}
